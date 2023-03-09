@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in $(find . -maxdepth 1 -type f -name "*.html") do cp -u "$file" "../$(basename "$file")" done
+cp -un *.html ../
